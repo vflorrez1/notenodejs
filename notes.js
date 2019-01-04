@@ -53,6 +53,7 @@ var logNote = (note) => {
     console.log('Title: ' + note.title);
     console.log('Body: ' + note.body);
 };
+
 module.exports = {
     addNote,
     getAll,
